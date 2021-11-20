@@ -20,14 +20,7 @@ html, .main {
 	font-size:0;
 	line-height:0;
 }
-h2 {
-	margin:8px 0;
-	padding:8px 0;
-	font-size:25px;
-	font-weight:bold;
-	color:#353c3e;
-}
-.header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content {
+.header, .content, .menu_nav, .contactmain, .footer, form, ol, ol li, ul, .content .mainbar, .content {
 	margin:0;
 	padding:0;
 }
@@ -85,14 +78,14 @@ h1 small {
 	float:left;
 	background:url(../images/menu_split.gif) no-repeat left center;
 }
-menu_nav ul li {
+.menu_nav ul li {
 	margin:0;
 	padding:0 20px;
 	float:left;
 	background:url(../images/menu_split.gif) no-repeat right center;
 }
 
-.menu_nav ul li a. {
+.menu_nav ul li a {
 	display:block;
 	margin:0;
 	padding:0;
@@ -117,6 +110,7 @@ menu_nav ul li {
     height: 20px;
     width: 100%;
 }
+
 #footer {
     position:absolute;
     bottom:0;
@@ -130,3 +124,51 @@ menu_nav ul li {
     color:#fff;
     font-style: italic;
 }
+.content {
+	padding:0;
+}
+.content_resize {
+	margin:0 auto;
+	padding:18px 0;
+	width:960px;
+}
+.content .mainbar {
+	margin:0;
+	padding:0;
+	float:left;
+	width:660px;
+   
+}
+.content .mainbar h2 {
+	margin-bottom:0;
+	padding-bottom:12px;
+	font-size:28px;
+	line-height:1.2em;
+    Float:right;
+    color:#353c3e;
+    border-bottom: 1px solid;
+}
+.contactmain {
+	background:white;
+}
+.contactmain_resize {
+	margin:0 auto;
+	width:920px;
+	padding:90px 0;
+}
+
+.contactmain p.contact_info span {
+	display:block;
+	float:left;
+	width:100px;
+	font-weight:bold;
+	color:#353c3e;
+}
+.contactmain p.contact_info span {
+	display:block;
+	float:left;
+	width:100px;
+	font-weight:bold;
+	color:#080808;
+}
+
