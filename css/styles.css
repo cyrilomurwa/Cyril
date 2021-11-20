@@ -1,48 +1,119 @@
-header {
-    display: block;
+body {
+	margin:0;
+	padding:0;
+	width:100%;
+	color:#929292;
+	font:normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
 }
-.Header--top {
-    background-image: url(https://static1.squarespace.com/static/5947001…/t/59a3507…/1503875206318/Navin+Red.png);
-    background-repeat: repeat-x;
-    background-size: 1500px 20px;
+html, .main {
+	padding:0;
+	margin:0;
+}
+.main {
+	background:#f8f8f8;
+}
+.clr {
+	clear:both;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-size:0;
+	line-height:0;
+}
+h2 {
+	margin:8px 0;
+	padding:8px 0;
+	font-size:25px;
+	font-weight:bold;
+	color:#353c3e;
+}
+.header, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content {
+	margin:0;
+	padding:0;
 }
 
-.Mobile-overlay-menu-main{
-    -webkit-transform:translate3d(-100%,0,0);
-    -moz-transform:translate3d(-100%,0,0);
-    -ms-transform:translate3d(-100%,0,0);
-    -o-transform:translate3d(-100%,0,0);
-    transform:translate3d(-100%,0,0)
+.header_resize {
+	margin:0 auto;
+	padding:0;
+	width:960px;
 }
-.Mobile-overlay-nav-item{
-	font-family:Arial,Helvetica,sans-serif;
-	font-weight:400;
-	font-style:normal;
-	font-size:16px;
-	letter-spacing:0em;
-	line-height:1em;
-	text-transform:none;
-	display:table;
+.ptitle {
+	padding:0;
+	float:left;
 	width:auto;
-	padding:12px 18px;
-	margin-bottom:6px
-}    
+	height:120px;
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: .11em;
+    line-height: 1.5em;
+    color: #c7423f;
+}
+h1 {
+	margin:0;
+	padding:50px 0 0;
+	font-size:48px;
+	font-weight:normal;
+	line-height:1.2em;
+	text-transform:none;
+}
+h1 a, h1 a:hover {
+	color: #c7423f;
+	text-decoration:none;
+}
+h1 small {
+	display:block;
+	margin:-4px 0;
+	padding-left:160px;
+	font-size:20px;
+	line-height:1.2em;
+	letter-spacing:normal;
+	text-transform:none;
+	color:#fff;
+}
+.menu_nav {
+	margin:0 auto;
+	padding:70px 0 0;
+	height:15px;
+	float:right;
+}
+.menu_nav ul {
+	list-style:none;
+	padding:0 0 0 1px;
+	height:15px;
+	float:left;
+	background:url(./images/menu_split.gif) no-repeat left center;
+}
+.menu_nav ul li {
+	margin:0;
+	padding:0 20px;
+	float:left;
+	background:url(./images/menu_split.gif) no-repeat right center;
+}
 
-img{
-    width: 400px;
-    height: 200px;
+.menu_nav ul li a {
+	display:block;
+	margin:0;
+	padding:0;
+	font-size:15px;
+	line-height:18px;
+	font-weight:bold;
+	color:#c4c4c4;
+	text-decoration:none;
+	text-transform:uppercase;
 }
-.menucenter{
-    display: flex;
-    justify-content: flex-end;
+.menu_nav ul li.active a, .menu_nav ul li a:hover {
+	text-decoration:none;
+	color:#000;
 }
-a{
-    padding-right: 30px;
-    font-size: 20px;
-    text-decoration: none;
+#content {
+    position: relative;
 }
-#centerTitle{
-    text-align: center;
-    font-weight: bolder;
-    
+#content img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 20px;
+    width: 100%;
 }
