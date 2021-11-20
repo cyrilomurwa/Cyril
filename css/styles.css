@@ -83,16 +83,16 @@ h1 small {
 	padding:0 0 0 1px;
 	height:15px;
 	float:left;
-	background:url(./images/menu_split.gif) no-repeat left center;
+	background:url(../images/menu_split.gif) no-repeat left center;
 }
-.menu_nav ul li {
+menu_nav ul li {
 	margin:0;
 	padding:0 20px;
 	float:left;
-	background:url(./images/menu_split.gif) no-repeat right center;
+	background:url(../images/menu_split.gif) no-repeat right center;
 }
 
-.menu_nav ul li a {
+.menu_nav ul li a. {
 	display:block;
 	margin:0;
 	padding:0;
@@ -116,4 +116,17 @@ h1 small {
     right: 0px;
     height: 20px;
     width: 100%;
+}
+#footer {
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    background:#6b6b6b;
+    padding: 0 0 0 0;
+    text-align: center;
+    line-height:1.5em;
+	border-top:1px solid #080808;
+    border-bottom: 1px solid #080808 ;
+    color:#fff;
+    font-style: italic;
 }
