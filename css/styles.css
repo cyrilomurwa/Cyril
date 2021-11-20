@@ -1,3 +1,48 @@
-header{
+header {
+    display: block;
+}
+.Header--top {
+    background-image: url(https://static1.squarespace.com/static/5947001…/t/59a3507…/1503875206318/Navin+Red.png);
+    background-repeat: repeat-x;
+    background-size: 1500px 20px;
+}
+
+.Mobile-overlay-menu-main{
+    -webkit-transform:translate3d(-100%,0,0);
+    -moz-transform:translate3d(-100%,0,0);
+    -ms-transform:translate3d(-100%,0,0);
+    -o-transform:translate3d(-100%,0,0);
+    transform:translate3d(-100%,0,0)
+}
+.Mobile-overlay-nav-item{
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:400;
+	font-style:normal;
+	font-size:16px;
+	letter-spacing:0em;
+	line-height:1em;
+	text-transform:none;
+	display:table;
+	width:auto;
+	padding:12px 18px;
+	margin-bottom:6px
+}    
+
+img{
+    width: 400px;
+    height: 200px;
+}
+.menucenter{
+    display: flex;
+    justify-content: flex-end;
+}
+a{
+    padding-right: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+#centerTitle{
+    text-align: center;
+    font-weight: bolder;
     
 }
