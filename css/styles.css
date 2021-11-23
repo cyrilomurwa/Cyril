@@ -2,8 +2,9 @@ body {
 	margin:0;
 	padding:0;
 	width:100%;
-	color:#929292;
-	font:normal 12px/1.5em "Liberation sans", Arial, Helvetica, sans-serif;
+	color:#252525;
+    font-family: sans-serif ;
+
 }
 html, .main {
 	padding:0;
@@ -102,20 +103,17 @@ h1 a, h1 a:hover {
 }
 
 #footer {
-    position:absolute;
     bottom:0;
     width: 100%;
     background:#6b6b6b;
     padding: 0 0 0 0;
     text-align: center;
-    line-height:1.5em;
+    line-height:1em;
 	border-top:1px solid #080808;
     border-bottom: 1px solid #080808 ;
     color:#fff;
     font-style: italic;
 }
-
-
 .content .mainbar {
 	margin:0;
 	padding:0;
@@ -140,9 +138,7 @@ h1 a, h1 a:hover {
 }
 .box {
 	margin: 0 0 0 0;
-}
-.box2 {
-	margin: 0 0 0 160px;
+    width: 900px;
 }
 img.alignleft {
 	float: left;
