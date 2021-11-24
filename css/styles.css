@@ -139,6 +139,11 @@ h1 a, h1 a:hover {
 	margin: 0 0 0 0;
     width: 900px;
 }
+.box3 {
+	margin: 0 0 0 0;
+    width: 900px;
+    border-top-style:ridge;
+}
 .box2 {
 	margin: 0 0 0 0;
     width: 900px;
@@ -162,7 +167,12 @@ img.alignleft {
 	width: 615px;
 	margin: 0 0 0 160px;
 }
-
+table {
+    width: 100%;
+ }
+th {
+    text-align: left;
+}
 
 
 
