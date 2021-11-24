@@ -135,11 +135,21 @@ h1 a, h1 a:hover {
 	width: 900px;
 	padding: 20px 40px 0 40px;
 }
+.experiences{
+	margin: 0 0 0 0;
+    width: 900px;
+    border-top-style:ridge;
+}
 .box {
 	margin: 0 0 0 0;
     width: 900px;
 }
 .box3 {
+	margin: 0 0 0 0;
+    width: 900px;
+    border-top-style:ridge;
+}
+.box4 {
 	margin: 0 0 0 0;
     width: 900px;
     border-top-style:ridge;
@@ -173,7 +183,9 @@ table {
 th {
     text-align: left;
 }
-
+th.col1 {
+    width: 25%
+  }
 
 
 
